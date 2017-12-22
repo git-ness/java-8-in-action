@@ -12,7 +12,6 @@ is similar to the filtering examples we’ve explored so far. */
 
 public class PrettyApple implements ApplePredicate{
 
-
     public static void prettyPrintApple(List<Apple> inventory, ApplePredicate applePredicate) {
         List<Apple> greenHeavyAppleList = new ArrayList<>();
         for (Apple apple : inventory) {
